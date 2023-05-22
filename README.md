@@ -14,7 +14,7 @@ This calculator will help you calculate how much money you will earn depending o
 
 ## Screenshots
 
-![App Screenshot]([https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/LiadBenMoshe/profit-calculator/blob/main/photo/Screenshot%202023-05-22%20204711.png))
+![App Screenshot]([[https://via.placeholder.com/468x300?text=App+Screenshot+Here](https://github.com/LiadBenMoshe/profit-calculator/blob/main/photo/Screenshot%202023-05-22%20204711.png)](https://github.com/LiadBenMoshe/profit-calculator/blob/main/photo/Screenshot%202023-05-22%20204711.png?raw=true))
 
 
 ## Authors

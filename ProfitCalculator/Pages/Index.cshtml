@@ -1,0 +1,53 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+
+</div>
+<div class="mx-auto p-3">
+    <form method="post">
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">$</span>
+            <span class="input-group-text">Initial Amount:</span>
+            <input type="text" class="form-control" id="InitialAmount" name="InitialAmount" aria-label="Dollar amount (with dot and two decimal places)">
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">%</span>
+            <span class="input-group-text">(10% = 0.1)</span>
+            <span class="input-group-text">Percent Per Month in numbers:</span>
+            <input type="text" class="form-control" id="PercentPerMonth" name="PercentPerMonth" aria-label="Dollar amount (with dot and two decimal places)">
+        </div>
+
+        <div class="input-group mb-3">
+            <span class="input-group-text">Y</span>
+            <span class="input-group-text">How Many Years:</span>
+            <input type="text" class="form-control" id="HowManyYears" name="HowManyYears" aria-label="Dollar amount (with dot and two decimal places)">
+        </div>
+
+        <div class="text-info text-center">
+            <p class="lead">
+                * Include TAX: @Model.TAX % from each profit
+            </p>
+        </div>
+
+        <div class="d-grid gap-2">
+            <button class="btn btn-primary" type="submit">Calculate</button>
+        </div>
+    </form>
+</div>
+<br />
+<div class="text-success text-center rounded-pill">
+    <p class="lead">
+        <h1>@Model.Message</h1>
+        <span class="material-icons">
+            currency_exchange
+        </span>
+    </p>
+    
+</div>

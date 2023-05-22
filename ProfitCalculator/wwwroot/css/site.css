@@ -1,0 +1,39 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    width: 500px;
+    margin: 0 auto;
+}
+
+input {
+    width: 200px;
+}
+
+button {
+    margin-top: 10px;
+}
+
+p {
+    margin-top: 10px;
+}
